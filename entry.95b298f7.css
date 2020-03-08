@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.smallTalkContainer {
+    margin: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.smallTalkEmoji {
+    height: 60px;
+    width: 60px;
+    font-size: 60px;
+}
+
+.smallTalkContent {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Futura-Medium;
+}
+
+.notificationViaEmailContainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.emailContainer {
+    
+    
+    height: 50px;
+    background: rgba(216,216,216,0.26);
+    align-self: center;
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    border-radius: 8px;
+}
+.okButton{
+    border:none;
+    color: white;
+    background-color: black;
+    outline: none;
+    opacity: 0;
+    width: 0;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.okButton:hover{
+    border-radius: 8px;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    cursor: alias;
+}
+.emailForm {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: BodoniSvtyTwoITCTT-Book;
+    outline:none;  
+    border:none;
+    border-radius: 8px;
+    background: none;
+}
+.notificationInfo {
+    font-family: BigCaslon-Medium;
+    font-size: 20px;
+}
+
+
+
+.coolComingTexts1 {
+   width: 100%;
+    height: 30px;
+    background-repeat: repeat-x;
+    background-image: url('/coming1.efcbf102.png');
+    background-size: contain;
+}
+
+.coolComingTexts2 {
+    margin-top: 10px;
+    background-repeat: repeat-x;
+    width: 100%;
+     height: 30px;
+     background-image: url('/coming2.ad80da5e.png');
+     background-size: contain;
+ }
+
+ @media screen and (min-width: 400px) {
+    .coolStaffsContainer {
+        position: absolute;
+        bottom: 40px;
+        display: flex;
+        width: 100%;
+        height: 60px;
+        flex-direction: column;
+    }
+  }
+
+ @media screen and (max-width: 400px) {
+     .smallTalkEmoji {
+         height: 60px;
+         font-size: 60px;
+     }
+    .notificationInfo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .smallTalkContent {
+        margin-top: 10px;
+    }
+    .smallTalkContainer {
+        margin: 30px;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .coolStaffsContainer {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        height: 60px;
+        flex-direction: column;
+    }
+    
+  }
+
+  .indicator {
+      visibility: hidden;
+}
+
+/*# sourceMappingURL=/entry.95b298f7.css.map */
